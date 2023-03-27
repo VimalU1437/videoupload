@@ -44,7 +44,7 @@ export default function Upload ({inputFile,assignInputfile,assignLocation}){
         ReactS3Client.uploadFile(file,file.name).then(data=>{
             console.log(data);
             assignLocation(data.location);
-        }).catch(err=>console.log(err));
+        }).catch(err=>console.log(err)); 
 
     }
 

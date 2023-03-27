@@ -2,9 +2,8 @@
 export const config = {
     bucketName: 'videobucket85',
     region: 'ap-south-1',
-    accessKeyId: process.env.ACCESS_KEY,
-    secretAccessKey: process.env.SECRET_KEY,
+    accessKeyId: "AKIASHBZM3KVRKDGGASN",
+    secretAccessKey: "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",
     
 }
 
-console.log(process.env.ACCESS_KEY);
